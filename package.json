@@ -5,7 +5,7 @@
     "author" : "4D",
     "homepage": "http://wakanda.org",
     "main" : "./shellWorker",
-    "licenses" : "MIT",
+    "license" : "MIT",
     "keywords": ["wakanda","shell","SystemWorker"],
     "engines": {"wakanda": ">= 10"}
 }

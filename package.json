@@ -1,6 +1,6 @@
 {
     "name": "shellWorker",
-    "description": "Module using SystemWorker to facilitate shell command execution",
+    "description": "Module using SystemWorker to facilitate shell command execution (WAK10 minimum)",
     "version": "1.0",
     "author" : "4D",
     "homepage": "http://wakanda.org",

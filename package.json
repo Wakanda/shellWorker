@@ -1,8 +1,8 @@
 {
     "name": "shellWorker",
     "description": "Module using SystemWorker to facilitate shell command execution (WAK10 minimum)",
-    "version": "1.0",
-    "author" : "4D",
+    "version": "1.0.1",
+    "author" : "Wakanda SAS",
     "homepage": "http://wakanda.org",
     "main" : "./shellWorker",
     "license" : "MIT",

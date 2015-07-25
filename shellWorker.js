@@ -31,7 +31,7 @@ exports.encoding = os.isWindows ? "windowsANSICodePage" : "utf8";
 exports.ERROR_BAD_VERSION = 1;
 
 var version = parseInt(process.buildNumber.split(".")[0]);
-if (version<10)
+if (version<10 && version>=1)
 	throw {code:exports.ERROR_BAD_VERSION,message:"shellWorker requires Wakanda 10 at least."};
 
 var prepareCommandLine = os.isWindows ?

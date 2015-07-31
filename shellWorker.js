@@ -44,7 +44,8 @@ var prepareCommandLine = os.isWindows ?
 	:
 	function (inCommand) {
         // on unix, pass arguments individually
-	    return ['sh', '-c', inCommand];
+        // added /usr/local/bin to PATH to include commons as Node.js
+        return ['sh', '-c', 'PATH=$PATH:/usr/local/bin '+ inCommand];
 	};
 
 
